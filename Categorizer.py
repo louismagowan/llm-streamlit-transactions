@@ -72,12 +72,12 @@ if uploaded_file:
     # Highlight the spend column green and make that writing white
     st.dataframe(df.style.set_properties(subset=['AVG_SPEND_EUR'], **{'color': 'green'}))
 
-# Get user to select the row they want to categorise
-row_number = st.number_input("**:red[Enter the row number of the transaction you want to categorise]**", min_value=0, max_value=len(df)-1, value=0, step=1)
-# Display the row
-row = df.iloc[row_number]
-display_format_row = pd.DataFrame(row).T.style.set_properties(subset=['AVG_SPEND_EUR'], **{'color': 'green'})
-st.write("The row you selected is: ", display_format_row)
+    # Get user to select the row they want to categorise
+    row_number = st.number_input("**:red[Enter the row number of the transaction you want to categorise]**", min_value=0, max_value=len(df)-1, value=0, step=1)
+    # Display the row
+    row = df.iloc[row_number]
+    display_format_row = pd.DataFrame(row).T.style.set_properties(subset=['AVG_SPEND_EUR'], **{'color': 'green'})
+    st.write("The row you selected is: ", display_format_row)
 st.markdown("#")
 
 
