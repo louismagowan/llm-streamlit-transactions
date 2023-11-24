@@ -1,0 +1,33 @@
+COUNTERPARTY_NAME,MCC_CODE,OPERATION_TYPE,AVG_SPEND_EUR,Label
+GOOGLE *TEMPORARY HOLD,"7,399",card,10,marketing
+SOCIETE GENERALE,"6,011",card,339,atm
+LA BANQUE POSTAL,"6,011",card,214,atm
+Adidas,"5,999",card,14,other_expense
+APPLE.COM/BILL,"5,818",card,23,online_service
+Google Payment IE LTD,"5,817",card,107,marketing
+UBER *EATS,"5,812",card,79,restaurant_and_bar
+DELIVEROO,"5,812",transfer,34,restaurant_and_bar
+E.LECLERC,"5,542",card,181,food_and_grocery
+CARREFOUR DAC VL,"5,542",card,87,food_and_grocery
+TOTAL,"5,541",card,228,food_and_grocery
+ADEO*LEROY MERLIN,"5,231",card,1592,gas_station
+BRICO DEPOT,"5,231",card,130,hardware_and_equipment
+CASTORAMA,"5,231",card,426,hardware_and_equipment
+COFIROUTE,"4,784",card,16,hardware_and_equipment
+AUTOROUTES DU S,"4,784",card,13,transport
+SANEF AUTOROUTE,"4,784",card,10,transport
+SANEF,"4,784",card,26,transport
+UBER *TRIP,"4,121",card,24,transport
+SNCF INTERNET,"4,112",card,311,transport
+RATP,"4,111",card,33,transport
+DGFIP,,direct_debit,3716,tax
+STRIPE,,income,4091,sales
+STICHTING CUSTODIAN UBER PAYMENTS,,income,1185,transport
+PAYPAL PTE. LTD.,,income,1028,sales
+Sumup Limited,,income,681,sales
+John Doe,,transfer,2500,salary
+Qonto,,biller,30,subscription
+Allianz,,direct_debit,500,insurance
+Booking.com,"1,234",card,200,hotel_and_lodging
+DHL,"7,399",card,5,logistics
+Pizzou,"5,567",card,30,restaurant_and_bar
